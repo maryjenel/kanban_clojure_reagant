@@ -5,6 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/core.rrb-vector "0.0.14"]
+                 [javax.xml.bind/jaxb-api "2.2.4"]
                  [org.clojure/clojurescript "1.9.89" :scope "provided"]
                  [com.cognitect/transit-clj "0.8.285"]
                  [ring "1.4.0"]
